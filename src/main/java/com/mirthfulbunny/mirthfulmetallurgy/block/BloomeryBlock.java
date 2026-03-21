@@ -94,7 +94,7 @@ public class BloomeryBlock extends BaseEntityBlock {
     }
 
     @Override
-    public void animateTick(BlockState pState, Level pLevel, BlockPos pPos, RandomSource pRandom) {
+    public void animateTick(BlockState pState, @NotNull Level pLevel, @NotNull BlockPos pPos, @NotNull RandomSource pRandom) {
         if (pState.getValue(LIT)) {
             double d0 = (double)pPos.getX() + 0.5D;
             double d1 = (double)pPos.getY();
