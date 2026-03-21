@@ -10,7 +10,7 @@
       "count": 4
     }
   ],
-  "bloom_time": 200,
+  "bloom_time": 2000,
   "output": {
     "count": 1,
     "item": "mirthfulmetallurgy:bloom"

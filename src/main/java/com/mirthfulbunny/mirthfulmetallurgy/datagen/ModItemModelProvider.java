@@ -54,8 +54,22 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FIRE_CLAY);
         simpleItem(ModItems.FIRE_CLAY_BRICK);
         simpleItem(ModItems.BLOOM);
+        simpleItem(ModItems.PRECARBURIZED_WROUGHT_IRON_INGOT);
+        simpleItem(ModItems.CHARCOAL_DUST);
 
         handheldItem(ModItems.IRON_HAMMER);
+
+        handheldItem(ModItems.BLISTER_STEEL_AXE);
+        handheldItem(ModItems.BLISTER_STEEL_PICKAXE);
+        handheldItem(ModItems.BLISTER_STEEL_SHOVEL);
+        handheldItem(ModItems.BLISTER_STEEL_HOE);
+        handheldItem(ModItems.BLISTER_STEEL_SWORD);
+
+        handheldItem(ModItems.WROUGHT_IRON_AXE);
+        handheldItem(ModItems.WROUGHT_IRON_PICKAXE);
+        handheldItem(ModItems.WROUGHT_IRON_SWORD);
+        handheldItem(ModItems.WROUGHT_IRON_HOE);
+        handheldItem(ModItems.WROUGHT_IRON_SHOVEL);
     }
 
     // Shoutout to El_Redstoniano for making this

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mirthfulmetallurgy:item/blister_steel_shovel"
+  }
+}

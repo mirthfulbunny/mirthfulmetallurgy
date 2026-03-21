@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mirthfulmetallurgy:charcoal_dust"
+    },
+    {
+      "item": "mirthfulmetallurgy:wrought_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "mirthfulmetallurgy:precarburized_wrought_iron_ingot"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "mirthfulmetallurgy:fire_clay_brick"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "F F",
+    "FFF"
+  ],
+  "result": {
+    "item": "mirthfulmetallurgy:bloomery"
+  },
+  "show_notification": true
+}
