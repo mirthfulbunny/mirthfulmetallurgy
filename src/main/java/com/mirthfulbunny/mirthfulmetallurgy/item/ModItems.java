@@ -2,6 +2,7 @@ package com.mirthfulbunny.mirthfulmetallurgy.item;
 
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,6 +31,12 @@ public class ModItems {
     // Artisan Era
     public static final RegistryObject<Item> FIRE_CLAY = ITEMS.register("fire_clay", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIRE_CLAY_BRICK = ITEMS.register("fire_clay_brick", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BLOOM = ITEMS.register("bloom",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
+            () -> new ModHammer(Tiers.IRON, new Item.Properties().durability(255)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

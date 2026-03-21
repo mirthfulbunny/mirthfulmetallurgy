@@ -1,5 +1,7 @@
-// 1.20.1	2026-03-19T22:50:48.3316901	Item Models: mirthfulmetallurgy
+// 1.20.1	2026-03-21T15:23:39.5323819	Item Models: mirthfulmetallurgy
 0b5b77cf00dcba3fc80f5cca2b7edcda6500cc2e assets/mirthfulmetallurgy/models/item/blister_steel_ingot.json
+4d09a993ae47e996b5ca7d8fdbf3cc47298d64ac assets/mirthfulmetallurgy/models/item/bloom.json
 7044158642cefdceeb36749d6d547333298fba73 assets/mirthfulmetallurgy/models/item/fire_clay.json
 35037b64d5f7a00e0cdffc4cb8dd5433719ce24f assets/mirthfulmetallurgy/models/item/fire_clay_brick.json
+2a827e4f51e7f2000ca8583318f9810364c976f1 assets/mirthfulmetallurgy/models/item/iron_hammer.json
 7e4fa1eb19a25d218fed71352b3296d77800845d assets/mirthfulmetallurgy/models/item/wrought_iron_ingot.json

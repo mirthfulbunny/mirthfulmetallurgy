@@ -1,0 +1,18 @@
+{
+  "type": "mirthfulmetallurgy:blooming",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:charcoal",
+      "count": 4
+    }
+  ],
+  "bloom_time": 200,
+  "output": {
+    "count": 1,
+    "item": "mirthfulmetallurgy:bloom"
+  }
+}

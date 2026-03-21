@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mirthfulmetallurgy:bloom"
+    },
+    {
+      "item": "mirthfulmetallurgy:bloom"
+    },
+    {
+      "item": "mirthfulmetallurgy:iron_hammer"
+    }
+  ],
+  "result": {
+    "item": "mirthfulmetallurgy:wrought_iron_ingot"
+  }
+}

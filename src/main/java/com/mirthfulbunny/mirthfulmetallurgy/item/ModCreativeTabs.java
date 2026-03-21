@@ -38,6 +38,8 @@ public class ModCreativeTabs {
 
                         pOutput.accept(ModItems.FIRE_CLAY.get());
                         pOutput.accept(ModItems.FIRE_CLAY_BRICK.get());
+                        pOutput.accept(ModItems.BLOOM.get());
+                        pOutput.accept(ModItems.IRON_HAMMER.get());
                     })
                     .build());
 

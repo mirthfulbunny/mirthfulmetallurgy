@@ -127,6 +127,9 @@ public class BloomeryBlockEntity extends BlockEntity implements MenuProvider {
 
     public void tick(Level pLevel, BlockPos pPos, BlockState pState) {
         if(hasRecipe()) {
+            if(getCurrentRecipe().isPresent()) {
+                maxProgress = getCurrentRecipe().get().getBloomTime();
+            }
             increaseCraftingProgress();
             setChanged(pLevel, pPos, pState);
 
@@ -147,7 +150,8 @@ public class BloomeryBlockEntity extends BlockEntity implements MenuProvider {
         Optional<BloomingRecipe> recipe = getCurrentRecipe();
         ItemStack result = recipe.get().getResultItem(null);
 
-        this.itemHandler.extractItem(INPUT_SLOT, 1, false);
+        this.itemHandler.extractItem(INPUT_SLOT, recipe.get().getIngredientCount(INPUT_SLOT), false);
+        this.itemHandler.extractItem(FUEL_SLOT, recipe.get().getIngredientCount(FUEL_SLOT), false);
 
         this.itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
                 this.itemHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount()));
