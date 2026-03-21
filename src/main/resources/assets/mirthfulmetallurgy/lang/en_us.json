@@ -20,7 +20,21 @@
   "item.mirthfulmetallurgy.fire_clay": "Fire Clay",
   "item.mirthfulmetallurgy.fire_clay_brick": "Fire Clay Brick",
   "item.mirthfulmetallurgy.bloom": "Bloom",
+  "item.mirthfulmetallurgy.charcoal_dust": "Charcoal Dust",
+  "item.mirthfulmetallurgy.precarburized_wrought_iron_ingot": "Precarburized Wrought Iron Ingot",
   "item.mirthfulmetallurgy.iron_hammer": "Iron Hammer",
+
+  "item.mirthfulmetallurgy.wrought_iron_sword": "Wrought Iron Sword",
+  "item.mirthfulmetallurgy.wrought_iron_pickaxe": "Wrought Iron Pickaxe",
+  "item.mirthfulmetallurgy.wrought_iron_axe": "Wrought Iron Axe",
+  "item.mirthfulmetallurgy.wrought_iron_shovel": "Wrought Iron Shovel",
+  "item.mirthfulmetallurgy.wrought_iron_hoe": "Wrought Iron Hoe",
+
+  "item.mirthfulmetallurgy.blister_steel_sword": "Blister Steel Sword",
+  "item.mirthfulmetallurgy.blister_steel_pickaxe": "Blister Steel Pickaxe",
+  "item.mirthfulmetallurgy.blister_steel_axe": "Blister Steel Axe",
+  "item.mirthfulmetallurgy.blister_steel_shovel": "Blister Steel Shovel",
+  "item.mirthfulmetallurgy.blister_steel_hoe": "Blister Steel Hoe",
 
   "block.mirthfulmetallurgy.bloomery": "Bloomery",
   "container.mirthfulmetallurgy.furnace": "Bloomery"
