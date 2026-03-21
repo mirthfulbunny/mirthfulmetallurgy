@@ -1,5 +1,6 @@
 package com.mirthfulbunny.mirthfulmetallurgy.block.entity;
 
+import com.mirthfulbunny.mirthfulmetallurgy.block.BloomeryBlock;
 import com.mirthfulbunny.mirthfulmetallurgy.recipe.BloomingRecipe;
 import com.mirthfulbunny.mirthfulmetallurgy.screen.BloomeryMenu;
 import net.minecraft.core.BlockPos;
@@ -137,8 +138,10 @@ public class BloomeryBlockEntity extends BlockEntity implements MenuProvider {
                 craftItem();
                 resetProgress();
             }
+            if(!pState.getValue(BloomeryBlock.LIT)) pLevel.setBlock(pPos, pState.setValue(BloomeryBlock.LIT, true), 3);
         } else {
             resetProgress();
+            if(pState.getValue(BloomeryBlock.LIT)) pLevel.setBlock(pPos, pState.setValue(BloomeryBlock.LIT, false), 3);
         }
     }
 
