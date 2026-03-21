@@ -28,6 +28,20 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
                 .unlockedBy(getHasName(Items.SAND.asItem()), has(Items.SAND.asItem()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WROUGHT_IRON_INGOT.get())
+                .requires(ModItems.BLOOM.get(), 2)
+                .requires(ModItems.IRON_HAMMER.get())
+                .unlockedBy(getHasName(ModItems.IRON_HAMMER.get()), has(ModItems.IRON_HAMMER.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_HAMMER.get())
+                .pattern("IS")
+                .pattern(" S")
+                .define('I', Items.IRON_INGOT)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.IRON_INGOT.asItem()), has(Items.IRON_INGOT.asItem()))
+                .save(pWriter);
+
         oreSmelting(pWriter, List.of(ModItems.FIRE_CLAY.get()), RecipeCategory.MISC, ModItems.FIRE_CLAY_BRICK.get(),
                 0.25f, 200, "fire_clay");
     }

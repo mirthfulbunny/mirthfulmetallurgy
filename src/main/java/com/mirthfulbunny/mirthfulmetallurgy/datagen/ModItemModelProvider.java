@@ -53,6 +53,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.FIRE_CLAY);
         simpleItem(ModItems.FIRE_CLAY_BRICK);
+        simpleItem(ModItems.BLOOM);
+
+        handheldItem(ModItems.IRON_HAMMER);
     }
 
     // Shoutout to El_Redstoniano for making this

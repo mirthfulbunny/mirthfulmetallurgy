@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "IS",
+    " S"
+  ],
+  "result": {
+    "item": "mirthfulmetallurgy:iron_hammer"
+  },
+  "show_notification": true
+}
