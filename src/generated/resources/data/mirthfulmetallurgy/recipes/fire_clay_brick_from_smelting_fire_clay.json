@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "fire_clay",
+  "ingredient": {
+    "item": "mirthfulmetallurgy:fire_clay"
+  },
+  "result": "mirthfulmetallurgy:fire_clay_brick"
+}

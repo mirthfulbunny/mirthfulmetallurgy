@@ -1,0 +1,26 @@
+{
+  "itemGroup.mirthful_metallurgy": "Mirthful Metallurgy",
+
+  "item.mirthfulmetallurgy.wrought_iron_ingot": "Wrought Iron Ingot",
+  "item.mirthfulmetallurgy.pig_iron_ingot": "Pig Iron Ingot",
+  "item.mirthfulmetallurgy.blister_steel_ingot": "Blister Steel Ingot",
+  "item.mirthfulmetallurgy.mild_steel_ingot": "Mild Steel Ingot",
+  "item.mirthfulmetallurgy.stainless_steel_ingot": "Stainless Steel Ingot",
+  "item.mirthfulmetallurgy.manganese_steel_ingot": "Manganese Steel Ingot",
+  "item.mirthfulmetallurgy.high_speed_steel_ingot": "High Speed Steel Ingot",
+
+  "block.mirthfulmetallurgy.wrought_iron_block": "Wrought Iron Block",
+  "block.mirthfulmetallurgy.pig_iron_block": "Pig Iron Block",
+  "block.mirthfulmetallurgy.blister_steel_block": "Blister Steel Block",
+  "block.mirthfulmetallurgy.mild_steel_block": "Mild Steel Block",
+  "block.mirthfulmetallurgy.stainless_steel_block": "Stainless Steel Block",
+  "block.mirthfulmetallurgy.manganese_steel_block": "Manganese Steel Block",
+  "block.mirthfulmetallurgy.high_speed_steel_block": "High Speed Steel Block",
+
+  "item.mirthfulmetallurgy.fire_clay": "Fire Clay",
+  "item.mirthfulmetallurgy.fire_clay_brick": "Fire Clay Brick",
+
+  "block.mirthfulmetallurgy.bloomery": "Bloomery",
+  "container.mirthfulmetallurgy.furnace": "Bloomery"
+
+}

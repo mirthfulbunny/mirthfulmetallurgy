@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "mirthfulmetallurgy:block/bloomery_front",
+    "side": "mirthfulmetallurgy:block/bloomery_side",
+    "top": "mirthfulmetallurgy:block/bloomery_top"
+  }
+}
