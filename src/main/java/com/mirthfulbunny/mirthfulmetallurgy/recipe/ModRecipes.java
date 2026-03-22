@@ -14,6 +14,9 @@ public class ModRecipes {
     public static final RegistryObject<RecipeSerializer<BloomingRecipe>> GEM_POLISHING_SERIALIZER =
             SERIALIZERS.register("blooming", () -> BloomingRecipe.Serializer.INSTANCE);
 
+    public static final RegistryObject<RecipeSerializer<HammeringRecipe>> HAMMERING_SERIALIZER =
+            SERIALIZERS.register("hammering", () -> HammeringRecipe.Serializer.INSTANCE);
+
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
     }
