@@ -1,4 +1,4 @@
-// 1.20.1	2026-03-21T17:19:53.0405282	Item Models: mirthfulmetallurgy
+// 1.20.1	2026-03-22T14:52:02.1718058	Item Models: mirthfulmetallurgy
 1ee3c080ca9a08d6cdee7ff9ea994403c62e85fb assets/mirthfulmetallurgy/models/item/blister_steel_axe.json
 aa3324903f1701a93d14cee949fd10934c6d4e56 assets/mirthfulmetallurgy/models/item/blister_steel_hoe.json
 0b5b77cf00dcba3fc80f5cca2b7edcda6500cc2e assets/mirthfulmetallurgy/models/item/blister_steel_ingot.json
@@ -9,8 +9,8 @@ cc44e5cd8098595607f3d9398afe1e831da7a39e assets/mirthfulmetallurgy/models/item/b
 36090979981aa7a69b6bd2d754b03efc0f9e315d assets/mirthfulmetallurgy/models/item/charcoal_dust.json
 7044158642cefdceeb36749d6d547333298fba73 assets/mirthfulmetallurgy/models/item/fire_clay.json
 35037b64d5f7a00e0cdffc4cb8dd5433719ce24f assets/mirthfulmetallurgy/models/item/fire_clay_brick.json
-2a827e4f51e7f2000ca8583318f9810364c976f1 assets/mirthfulmetallurgy/models/item/iron_hammer.json
 604456729b9de3e1013861ce14a87541abde4df9 assets/mirthfulmetallurgy/models/item/precarburized_wrought_iron_ingot.json
+69379edb77ef48fd7856a19cb46500df2d8f3674 assets/mirthfulmetallurgy/models/item/slag.json
 77beeaaa40e623b3c7a04f56a55e109b3e5ff513 assets/mirthfulmetallurgy/models/item/wrought_iron_axe.json
 a4137513bb42bdc450bd4eb25649392a54ea9ec0 assets/mirthfulmetallurgy/models/item/wrought_iron_hoe.json
 7e4fa1eb19a25d218fed71352b3296d77800845d assets/mirthfulmetallurgy/models/item/wrought_iron_ingot.json

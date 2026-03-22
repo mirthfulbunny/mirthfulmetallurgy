@@ -86,7 +86,9 @@ public class HammeringRecipe implements Recipe<Container> {
             Ingredient ingredient = Ingredient.fromJson(pSerializedRecipe.get("ingredient"));
             int ingredientCount = GsonHelper.getAsInt(pSerializedRecipe.getAsJsonObject("ingredient"), "count", 1);
             ItemStack primaryOutput = ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(pSerializedRecipe, "primaryOutput"));
-            ItemStack secondaryOutput = ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(pSerializedRecipe, "secondaryOutput"));
+            ItemStack secondaryOutput = pSerializedRecipe.has("secondaryOutput") ?
+                    ShapedRecipe.itemStackFromJson(GsonHelper.getAsJsonObject(pSerializedRecipe, "secondaryOutput"))
+                    : ItemStack.EMPTY;
 
             return new HammeringRecipe(ingredient, ingredientCount, primaryOutput, secondaryOutput, pRecipeId);
         }

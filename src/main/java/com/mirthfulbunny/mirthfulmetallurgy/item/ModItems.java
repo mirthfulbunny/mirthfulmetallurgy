@@ -37,11 +37,13 @@ public class ModItems {
     public static final RegistryObject<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SLAG = ITEMS.register("slag", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PRECARBURIZED_WROUGHT_IRON_INGOT = ITEMS.register("precarburized_wrought_iron_ingot",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
-            () -> new ModHammer(Tiers.IRON, new Item.Properties().durability(255)));
+//    public static final RegistryObject<Item> IRON_HAMMER = ITEMS.register("iron_hammer",
+//            () -> new ModHammer(Tiers.IRON, new Item.Properties().durability(255)));
 
     public static final RegistryObject<Item> WROUGHT_IRON_SWORD = ITEMS.register("wrought_iron_sword",
             () -> new SwordItem(ModToolTiers.WROUGHT_IRON, 3, -2.4f, new Item.Properties()));

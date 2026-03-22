@@ -63,10 +63,12 @@ public class HammeringMenu extends ItemCombinerMenu {
 
             this.inputSlots.getItem(INPUT_SLOT).shrink(this.selectedRecipe.getIngredientCount());
 
-            if(this.customResultSlots.getItem(0).is(this.selectedRecipe.getSecondaryOutput().getItem())) {
-                this.customResultSlots.getItem(0).grow(1);
-            } else {
-                this.customResultSlots.setItem(0, this.selectedRecipe.getSecondaryOutput().copy());
+            if( !this.selectedRecipe.getSecondaryOutput().isEmpty() ) {
+                if(this.customResultSlots.getItem(0).is(this.selectedRecipe.getSecondaryOutput().getItem())) {
+                    this.customResultSlots.getItem(0).grow(1);
+                } else {
+                    this.customResultSlots.setItem(0, this.selectedRecipe.getSecondaryOutput().copy());
+                }
             }
 
             this.customResultSlots.setChanged();
