@@ -21,6 +21,7 @@
   "item.mirthfulmetallurgy.fire_clay_brick": "Fire Clay Brick",
   "item.mirthfulmetallurgy.bloom": "Bloom",
   "item.mirthfulmetallurgy.charcoal_dust": "Charcoal Dust",
+  "item.mirthfulmetallurgy.slag": "Slag",
   "item.mirthfulmetallurgy.precarburized_wrought_iron_ingot": "Precarburized Wrought Iron Ingot",
   "item.mirthfulmetallurgy.iron_hammer": "Iron Hammer",
 
@@ -37,6 +38,7 @@
   "item.mirthfulmetallurgy.blister_steel_hoe": "Blister Steel Hoe",
 
   "block.mirthfulmetallurgy.bloomery": "Bloomery",
+  "block.mirthfulmetallurgy.hammer_table": "Hammering Table",
   "container.mirthfulmetallurgy.furnace": "Bloomery"
 
 }

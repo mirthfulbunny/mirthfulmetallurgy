@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mirthfulmetallurgy:block/hammer_table_bottom",
+    "east": "mirthfulmetallurgy:block/hammer_table_side",
+    "north": "mirthfulmetallurgy:block/hammer_table_front",
+    "south": "mirthfulmetallurgy:block/hammer_table_side",
+    "up": "mirthfulmetallurgy:block/hammer_table_top",
+    "west": "mirthfulmetallurgy:block/hammer_table_side"
+  }
+}

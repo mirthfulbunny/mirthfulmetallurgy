@@ -35,13 +35,14 @@ public class ModCreativeTabs {
 //                        pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
                         pOutput.accept(ModBlocks.BLOOMERY.get());
+                        pOutput.accept(ModBlocks.HAMMER_TABLE.get());
 
                         pOutput.accept(ModItems.FIRE_CLAY.get());
                         pOutput.accept(ModItems.FIRE_CLAY_BRICK.get());
                         pOutput.accept(ModItems.BLOOM.get());
                         pOutput.accept(ModItems.CHARCOAL_DUST.get());
+                        pOutput.accept(ModItems.SLAG.get());
                         pOutput.accept(ModItems.PRECARBURIZED_WROUGHT_IRON_INGOT.get());
-                        pOutput.accept(ModItems.IRON_HAMMER.get());
 
                         pOutput.accept(ModItems.WROUGHT_IRON_AXE.get());
                         pOutput.accept(ModItems.WROUGHT_IRON_PICKAXE.get());

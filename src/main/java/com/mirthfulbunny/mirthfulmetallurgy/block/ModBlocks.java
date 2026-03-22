@@ -37,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLOOMERY = registerBlock("bloomery",
             () -> new BloomeryBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
+    public static final RegistryObject<Block> HAMMER_TABLE = registerBlock("hammer_table",
+            () -> new HammerTableBlock(BlockBehaviour.Properties.copy(Blocks.SMITHING_TABLE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

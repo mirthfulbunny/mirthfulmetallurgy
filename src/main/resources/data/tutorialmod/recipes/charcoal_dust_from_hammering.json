@@ -1,0 +1,11 @@
+{
+  "type": "mirthfulmetallurgy:hammering",
+  "ingredient": {
+      "item": "minecraft:charcoal",
+      "count": 1
+  },
+  "primaryOutput": {
+      "count": 1,
+      "item": "mirthfulmetallurgy:charcoal_dust"
+    }
+}

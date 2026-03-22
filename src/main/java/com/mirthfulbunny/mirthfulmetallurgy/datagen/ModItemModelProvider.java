@@ -56,8 +56,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BLOOM);
         simpleItem(ModItems.PRECARBURIZED_WROUGHT_IRON_INGOT);
         simpleItem(ModItems.CHARCOAL_DUST);
-
-        handheldItem(ModItems.IRON_HAMMER);
+        simpleItem(ModItems.SLAG);
 
         handheldItem(ModItems.BLISTER_STEEL_AXE);
         handheldItem(ModItems.BLISTER_STEEL_PICKAXE);

@@ -6,6 +6,7 @@ import com.mirthfulbunny.mirthfulmetallurgy.item.ModCreativeTabs;
 import com.mirthfulbunny.mirthfulmetallurgy.item.ModItems;
 import com.mirthfulbunny.mirthfulmetallurgy.recipe.ModRecipes;
 import com.mirthfulbunny.mirthfulmetallurgy.screen.BloomeryScreen;
+import com.mirthfulbunny.mirthfulmetallurgy.screen.HammeringScreen;
 import com.mirthfulbunny.mirthfulmetallurgy.screen.ModMenuTypes;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -77,6 +78,7 @@ public class MirthfulMetallurgy {
             LOGGER.info("HELLO FROM CLIENT SETUP");
 
             MenuScreens.register(ModMenuTypes.BLOOMERY_MENU.get(), BloomeryScreen::new);
+            MenuScreens.register(ModMenuTypes.HAMMERING_MENU.get(), HammeringScreen::new);
         }
     }
 }

@@ -1,0 +1,15 @@
+{
+  "type": "mirthfulmetallurgy:hammering",
+  "ingredient": {
+      "item": "mirthfulmetallurgy:bloom",
+      "count": 2
+  },
+  "primaryOutput": {
+      "count": 1,
+      "item": "mirthfulmetallurgy:wrought_iron_ingot"
+    },
+  "secondaryOutput": {
+      "count": 1,
+      "item": "mirthfulmetallurgy:slag"
+    }
+}

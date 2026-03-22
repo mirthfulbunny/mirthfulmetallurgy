@@ -32,6 +32,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 //        this.dropSelf(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
         this.dropSelf(ModBlocks.BLOOMERY.get());
+        this.dropSelf(ModBlocks.HAMMER_TABLE.get());
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
