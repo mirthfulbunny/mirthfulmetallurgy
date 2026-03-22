@@ -21,18 +21,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> WROUGHT_IRON_BLOCK = registerBlock("wrought_iron_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-//    public static final RegistryObject<Block> PIG_IRON_BLOCK = registerBlock("pig_iron_block",
-//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> PIG_IRON_BLOCK = registerBlock("pig_iron_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> BLISTER_STEEL_BLOCK = registerBlock("blister_steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-//    public static final RegistryObject<Block> MILD_STEEL_BLOCK = registerBlock("mild_steel_block",
-//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-//    public static final RegistryObject<Block> STAINLESS_STEEL_BLOCK = registerBlock("stainless_steel_block",
-//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-//    public static final RegistryObject<Block> MANGANESE_STEEL_BLOCK = registerBlock("manganese_steel_block",
-//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-//    public static final RegistryObject<Block> HIGH_SPEED_STEEL_BLOCK = registerBlock("high_speed_steel_block",
-//            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> MILD_STEEL_BLOCK = registerBlock("mild_steel_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> STAINLESS_STEEL_BLOCK = registerBlock("stainless_steel_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> MANGANESE_STEEL_BLOCK = registerBlock("manganese_steel_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> HIGH_SPEED_STEEL_BLOCK = registerBlock("high_speed_steel_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> BLOOMERY = registerBlock("bloomery",
             () -> new BloomeryBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));

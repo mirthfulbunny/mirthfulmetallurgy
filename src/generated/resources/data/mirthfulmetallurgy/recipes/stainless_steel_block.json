@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "mirthfulmetallurgy:stainless_steel_ingot"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "mirthfulmetallurgy:stainless_steel_block"
+  },
+  "show_notification": true
+}

@@ -14,18 +14,18 @@ public class ModItems {
     // Ingots
     public static final RegistryObject<Item> WROUGHT_IRON_INGOT = ITEMS.register("wrought_iron_ingot",
             () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> PIG_IRON_INGOT = ITEMS.register("pig_iron_ingot",
-//            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PIG_IRON_INGOT = ITEMS.register("pig_iron_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLISTER_STEEL_INGOT = ITEMS.register("blister_steel_ingot",
             () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> MILD_STEEL_INGOT = ITEMS.register("mild_steel_ingot",
-//            () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> STAINLESS_STEEL_INGOT = ITEMS.register("stainless_steel_ingot",
-//            () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> MANGANESE_STEEL_INGOT = ITEMS.register("manganese_steel_ingot",
-//            () -> new Item(new Item.Properties()));
-//    public static final RegistryObject<Item> HIGH_SPEED_STEEL_INGOT = ITEMS.register("high_speed_steel_ingot",
-//            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MILD_STEEL_INGOT = ITEMS.register("mild_steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STAINLESS_STEEL_INGOT = ITEMS.register("stainless_steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MANGANESE_STEEL_INGOT = ITEMS.register("manganese_steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HIGH_SPEED_STEEL_INGOT = ITEMS.register("high_speed_steel_ingot",
+            () -> new Item(new Item.Properties()));
 
     // Artisan Era
     public static final RegistryObject<Item> FIRE_CLAY = ITEMS.register("fire_clay", () -> new Item(new Item.Properties()));

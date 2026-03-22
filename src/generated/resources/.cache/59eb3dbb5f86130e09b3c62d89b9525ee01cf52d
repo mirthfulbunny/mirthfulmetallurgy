@@ -1,5 +1,10 @@
-// 1.20.1	2026-03-21T20:11:40.6915708	Loot Tables
+// 1.20.1	2026-03-22T18:55:31.4392456	Loot Tables
 05fafef3b1ea547e04dcbfd032b1ecad11fe686c data/mirthfulmetallurgy/loot_tables/blocks/blister_steel_block.json
 23169544dd0b1979da8c85d0ba4111160e4440a0 data/mirthfulmetallurgy/loot_tables/blocks/bloomery.json
 137729646a933b2108b9e0679b5870b994e2b739 data/mirthfulmetallurgy/loot_tables/blocks/hammer_table.json
+d8e067c60df4034cec0036288b4641e2c7ed86a2 data/mirthfulmetallurgy/loot_tables/blocks/high_speed_steel_block.json
+e8a0764d583c53e8ae27e2d3bdefc51b0414b1a9 data/mirthfulmetallurgy/loot_tables/blocks/manganese_steel_block.json
+af334d58f6a8e0f233f8f0a797df61729d161c66 data/mirthfulmetallurgy/loot_tables/blocks/mild_steel_block.json
+ad8a4b478dc6a09284c10588db7703778839a5af data/mirthfulmetallurgy/loot_tables/blocks/pig_iron_block.json
+d177b42cbd0afc7a9346ea6e97f3fb814d18dbda data/mirthfulmetallurgy/loot_tables/blocks/stainless_steel_block.json
 f9e29f87b9ddecebe15b862c009527fbf2d8a71d data/mirthfulmetallurgy/loot_tables/blocks/wrought_iron_block.json

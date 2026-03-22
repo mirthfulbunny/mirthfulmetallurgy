@@ -44,12 +44,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.WROUGHT_IRON_INGOT);
-//        simpleItem(ModItems.PIG_IRON_INGOT);
+        simpleItem(ModItems.PIG_IRON_INGOT);
         simpleItem(ModItems.BLISTER_STEEL_INGOT);
-//        simpleItem(ModItems.MILD_STEEL_INGOT);
-//        simpleItem(ModItems.STAINLESS_STEEL_INGOT);
-//        simpleItem(ModItems.MANGANESE_STEEL_INGOT);
-//        simpleItem(ModItems.HIGH_SPEED_STEEL_INGOT);
+        simpleItem(ModItems.MILD_STEEL_INGOT);
+        simpleItem(ModItems.STAINLESS_STEEL_INGOT);
+        simpleItem(ModItems.MANGANESE_STEEL_INGOT);
+        simpleItem(ModItems.HIGH_SPEED_STEEL_INGOT);
 
         simpleItem(ModItems.FIRE_CLAY);
         simpleItem(ModItems.FIRE_CLAY_BRICK);

@@ -19,20 +19,20 @@ public class ModCreativeTabs {
                     .title(Component.translatable("itemGroup.mirthful_metallurgy"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.WROUGHT_IRON_INGOT.get());
-//                        pOutput.accept(ModItems.PIG_IRON_INGOT.get());
+                        pOutput.accept(ModItems.PIG_IRON_INGOT.get());
                         pOutput.accept(ModItems.BLISTER_STEEL_INGOT.get());
-//                        pOutput.accept(ModItems.MILD_STEEL_INGOT.get());
-//                        pOutput.accept(ModItems.STAINLESS_STEEL_INGOT.get());
-//                        pOutput.accept(ModItems.MANGANESE_STEEL_INGOT.get());
-//                        pOutput.accept(ModItems.HIGH_SPEED_STEEL_INGOT.get());
+                        pOutput.accept(ModItems.MILD_STEEL_INGOT.get());
+                        pOutput.accept(ModItems.STAINLESS_STEEL_INGOT.get());
+                        pOutput.accept(ModItems.MANGANESE_STEEL_INGOT.get());
+                        pOutput.accept(ModItems.HIGH_SPEED_STEEL_INGOT.get());
 
                         pOutput.accept(ModBlocks.WROUGHT_IRON_BLOCK.get());
-//                        pOutput.accept(ModBlocks.PIG_IRON_BLOCK.get());
+                        pOutput.accept(ModBlocks.PIG_IRON_BLOCK.get());
                         pOutput.accept(ModBlocks.BLISTER_STEEL_BLOCK.get());
-//                        pOutput.accept(ModBlocks.MILD_STEEL_BLOCK.get());
-//                        pOutput.accept(ModBlocks.STAINLESS_STEEL_BLOCK.get());
-//                        pOutput.accept(ModBlocks.MANGANESE_STEEL_BLOCK.get());
-//                        pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.MILD_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.STAINLESS_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.MANGANESE_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
                         pOutput.accept(ModBlocks.BLOOMERY.get());
                         pOutput.accept(ModBlocks.HAMMER_TABLE.get());

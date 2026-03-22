@@ -24,6 +24,14 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
 
     @Override
     protected void buildRecipes(@NotNull Consumer<FinishedRecipe> pWriter) {
+        craftBlock(pWriter, ModItems.WROUGHT_IRON_INGOT.get(), ModBlocks.WROUGHT_IRON_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.PIG_IRON_INGOT.get(), ModBlocks.PIG_IRON_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.BLISTER_STEEL_INGOT.get(), ModBlocks.BLISTER_STEEL_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.MILD_STEEL_INGOT.get(), ModBlocks.MILD_STEEL_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.STAINLESS_STEEL_INGOT.get(), ModBlocks.STAINLESS_STEEL_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.MANGANESE_STEEL_INGOT.get(), ModBlocks.MANGANESE_STEEL_BLOCK.get().asItem());
+        craftBlock(pWriter, ModItems.HIGH_SPEED_STEEL_INGOT.get(), ModBlocks.HIGH_SPEED_STEEL_BLOCK.get().asItem());
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIRE_CLAY.get())
                 .requires(Items.CLAY_BALL.asItem(), 2)
                 .requires(Items.SAND.asItem(), 2)
@@ -41,6 +49,12 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.HAMMER_TABLE.get())
                 .requires(Items.SMITHING_TABLE.asItem())
                 .unlockedBy(getHasName(Items.SMITHING_TABLE.asItem()), has(Items.SMITHING_TABLE.asItem()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PRECARBURIZED_WROUGHT_IRON_INGOT.get())
+                .requires(ModItems.WROUGHT_IRON_INGOT.get())
+                .requires(ModItems.CHARCOAL_DUST.get())
+                .unlockedBy(getHasName(ModItems.WROUGHT_IRON_INGOT.get()), has(ModItems.WROUGHT_IRON_INGOT.get()))
                 .save(pWriter);
 
 //        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.SMITHING_TABLE.asItem())
@@ -68,6 +82,16 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
         craftHoe(pWriter, ModItems.BLISTER_STEEL_INGOT.get(), ModItems.BLISTER_STEEL_HOE.get());
         craftShovel(pWriter, ModItems.BLISTER_STEEL_INGOT.get(), ModItems.BLISTER_STEEL_SHOVEL.get());
         craftSword(pWriter, ModItems.BLISTER_STEEL_INGOT.get(), ModItems.BLISTER_STEEL_SWORD.get());
+    }
+
+    protected static void craftBlock(@NotNull Consumer<FinishedRecipe> pWriter, Item material, Item result) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, result)
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', material)
+                .unlockedBy(getHasName(material), has(material))
+                .save(pWriter);
     }
 
     protected static void craftPickaxe(@NotNull Consumer<FinishedRecipe> pWriter, Item material, Item result) {
