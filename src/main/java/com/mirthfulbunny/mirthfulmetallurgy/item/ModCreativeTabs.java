@@ -35,6 +35,7 @@ public class ModCreativeTabs {
 //                        pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
                         pOutput.accept(ModBlocks.BLOOMERY.get());
+                        pOutput.accept(ModBlocks.HAMMER_TABLE.get());
 
                         pOutput.accept(ModItems.FIRE_CLAY.get());
                         pOutput.accept(ModItems.FIRE_CLAY_BRICK.get());

@@ -28,6 +28,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         furnaceBlock(ModBlocks.BLOOMERY.get(), "bloomery");
         simpleBlockItem(ModBlocks.BLOOMERY.get(), models().getExistingFile(modLoc("block/bloomery")));
+        simpleBlock(ModBlocks.HAMMER_TABLE.get(), models().cube(
+                "hammer_table",
+                modLoc("block/hammer_table_bottom"),
+                modLoc("block/hammer_table_top"),
+                modLoc("block/hammer_table_front"),
+                modLoc("block/hammer_table_side"),
+                modLoc("block/hammer_table_side"),
+                modLoc("block/hammer_table_side")
+        ));
+        simpleBlockItem(ModBlocks.HAMMER_TABLE.get(), models().getExistingFile(modLoc("block/hammer_table")));
     }
 
     private void furnaceBlock(Block block, String name) {
