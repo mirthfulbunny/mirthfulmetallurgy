@@ -34,6 +34,8 @@ public class ModCreativeTabs {
                         pOutput.accept(ModBlocks.MANGANESE_STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
+                        pOutput.accept(ModItems.MOLTEN_PIG_IRON_BUCKET.get());
+
                         pOutput.accept(ModBlocks.BLOOMERY.get());
                         pOutput.accept(ModBlocks.HAMMER_TABLE.get());
 

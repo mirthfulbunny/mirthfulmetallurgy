@@ -3,6 +3,7 @@ package com.mirthfulbunny.mirthfulmetallurgy.datagen;
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
 import com.mirthfulbunny.mirthfulmetallurgy.block.ModBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -19,12 +20,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.WROUGHT_IRON_BLOCK);
-//        blockWithItem(ModBlocks.PIG_IRON_BLOCK);
+        blockWithItem(ModBlocks.PIG_IRON_BLOCK);
         blockWithItem(ModBlocks.BLISTER_STEEL_BLOCK);
-//        blockWithItem(ModBlocks.MILD_STEEL_BLOCK);
-//        blockWithItem(ModBlocks.STAINLESS_STEEL_BLOCK);
-//        blockWithItem(ModBlocks.MANGANESE_STEEL_BLOCK);
-//        blockWithItem(ModBlocks.HIGH_SPEED_STEEL_BLOCK);
+        blockWithItem(ModBlocks.MILD_STEEL_BLOCK);
+        blockWithItem(ModBlocks.STAINLESS_STEEL_BLOCK);
+        blockWithItem(ModBlocks.MANGANESE_STEEL_BLOCK);
+        blockWithItem(ModBlocks.HIGH_SPEED_STEEL_BLOCK);
+
+        fluidBlock(ModBlocks.MOLTEN_PIG_IRON_BLOCK.get(), "molten_pig_iron");
 
         furnaceBlock(ModBlocks.BLOOMERY.get(), "bloomery");
         simpleBlockItem(ModBlocks.BLOOMERY.get(), models().getExistingFile(modLoc("block/bloomery")));
@@ -63,5 +66,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+
+    private void fluidBlock(Block fluidBlock, String fluidName) {
+        ModelFile fluidModel = models().getBuilder(fluidName)
+                        .parent(models().getExistingFile(mcLoc("block/water")));
+
+//        // Apply the model to all fluid levels (0-7, plus waterlogged states if needed)
+//        getVariantBuilder(fluidBlock).forAllStates(state ->
+//                ConfiguredModel.builder().modelFile(fluidModel).build()
+//        );
     }
 }

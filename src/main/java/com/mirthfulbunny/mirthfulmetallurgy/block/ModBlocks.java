@@ -1,11 +1,13 @@
 package com.mirthfulbunny.mirthfulmetallurgy.block;
 
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
+import com.mirthfulbunny.mirthfulmetallurgy.fluid.ModFluids;
 import com.mirthfulbunny.mirthfulmetallurgy.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,6 +35,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> HIGH_SPEED_STEEL_BLOCK = registerBlock("high_speed_steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<LiquidBlock> MOLTEN_PIG_IRON_BLOCK = BLOCKS.register("molten_pig_iron_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_PIG_IRON_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
     public static final RegistryObject<Block> BLOOMERY = registerBlock("bloomery",
             () -> new BloomeryBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));

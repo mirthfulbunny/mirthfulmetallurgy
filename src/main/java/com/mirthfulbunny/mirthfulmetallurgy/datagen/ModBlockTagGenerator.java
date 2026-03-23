@@ -2,9 +2,11 @@ package com.mirthfulbunny.mirthfulmetallurgy.datagen;
 
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
 import com.mirthfulbunny.mirthfulmetallurgy.block.ModBlocks;
+import com.mirthfulbunny.mirthfulmetallurgy.fluid.ModFluids;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.FluidTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.NotNull;

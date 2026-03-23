@@ -1,6 +1,7 @@
 package com.mirthfulbunny.mirthfulmetallurgy.item;
 
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
+import com.mirthfulbunny.mirthfulmetallurgy.fluid.ModFluids;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +27,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HIGH_SPEED_STEEL_INGOT = ITEMS.register("high_speed_steel_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MOLTEN_PIG_IRON_BUCKET = ITEMS.register("molten_pig_iron_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_PIG_IRON_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     // Artisan Era
     public static final RegistryObject<Item> FIRE_CLAY = ITEMS.register("fire_clay", () -> new Item(new Item.Properties()));

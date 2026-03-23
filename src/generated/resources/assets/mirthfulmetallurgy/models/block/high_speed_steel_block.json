@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mirthfulmetallurgy:block/high_speed_steel_block"
+  }
+}

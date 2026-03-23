@@ -2,6 +2,8 @@ package com.mirthfulbunny.mirthfulmetallurgy;
 
 import com.mirthfulbunny.mirthfulmetallurgy.block.ModBlocks;
 import com.mirthfulbunny.mirthfulmetallurgy.block.entity.ModBlockEntities;
+import com.mirthfulbunny.mirthfulmetallurgy.fluid.ModFluids;
+import com.mirthfulbunny.mirthfulmetallurgy.fluid.types.ModFluidTypes;
 import com.mirthfulbunny.mirthfulmetallurgy.item.ModCreativeTabs;
 import com.mirthfulbunny.mirthfulmetallurgy.item.ModItems;
 import com.mirthfulbunny.mirthfulmetallurgy.recipe.ModRecipes;
@@ -11,6 +13,8 @@ import com.mirthfulbunny.mirthfulmetallurgy.screen.ModMenuTypes;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
@@ -56,6 +60,8 @@ public class MirthfulMetallurgy {
         ModBlockEntities.register(modEventBus);
         ModRecipes.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -79,6 +85,9 @@ public class MirthfulMetallurgy {
 
             MenuScreens.register(ModMenuTypes.BLOOMERY_MENU.get(), BloomeryScreen::new);
             MenuScreens.register(ModMenuTypes.HAMMERING_MENU.get(), HammeringScreen::new);
+
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_PIG_IRON_SOURCE.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.MOLTEN_PIG_IRON_FLOWING.get(), RenderType.translucent());
         }
     }
 }

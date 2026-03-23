@@ -17,6 +17,9 @@
   "block.mirthfulmetallurgy.manganese_steel_block": "Manganese Steel Block",
   "block.mirthfulmetallurgy.high_speed_steel_block": "High Speed Steel Block",
 
+  "fluid.mirthfulmetallurgy.molten_pig_iron": "Molten Pig Iron",
+  "item.mirthfulmetallurgy.molten_pig_iron_bucket": "Molten Pig Iron Bucket",
+
   "item.mirthfulmetallurgy.fire_clay": "Fire Clay",
   "item.mirthfulmetallurgy.fire_clay_brick": "Fire Clay Brick",
   "item.mirthfulmetallurgy.bloom": "Bloom",
