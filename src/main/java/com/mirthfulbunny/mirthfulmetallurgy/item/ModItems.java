@@ -30,6 +30,21 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOLTEN_PIG_IRON_BUCKET = ITEMS.register("molten_pig_iron_bucket",
             () -> new BucketItem(ModFluids.MOLTEN_PIG_IRON_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_WROUGHT_IRON_BUCKET = ITEMS.register("molten_wrought_iron_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_WROUGHT_IRON_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_BLISTER_STEEL_BUCKET = ITEMS.register("molten_blister_steel_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_BLISTER_STEEL_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_MILD_STEEL_BUCKET = ITEMS.register("molten_mild_steel_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_MILD_STEEL_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_STAINLESS_STEEL_BUCKET = ITEMS.register("molten_stainless_steel_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_STAINLESS_STEEL_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_MANGANESE_STEEL_BUCKET = ITEMS.register("molten_manganese_steel_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_MANGANESE_STEEL_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_HIGH_SPEED_STEEL_BUCKET = ITEMS.register("molten_high_speed_steel_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_HIGH_SPEED_STEEL_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_SLAG_BUCKET = ITEMS.register("molten_slag_bucket",
+            () -> new BucketItem(ModFluids.MOLTEN_SLAG_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+
 
     // Artisan Era
     public static final RegistryObject<Item> FIRE_CLAY = ITEMS.register("fire_clay", () -> new Item(new Item.Properties()));

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mirthfulmetallurgy:item/molten_blister_steel_bucket"
+  }
+}

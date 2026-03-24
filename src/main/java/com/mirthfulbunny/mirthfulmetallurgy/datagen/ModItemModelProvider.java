@@ -1,6 +1,7 @@
 package com.mirthfulbunny.mirthfulmetallurgy.datagen;
 
 import com.mirthfulbunny.mirthfulmetallurgy.MirthfulMetallurgy;
+import com.mirthfulbunny.mirthfulmetallurgy.block.ModBlocks;
 import com.mirthfulbunny.mirthfulmetallurgy.fluid.ModFluids;
 import com.mirthfulbunny.mirthfulmetallurgy.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -53,6 +54,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.HIGH_SPEED_STEEL_INGOT);
 
         simpleItem(ModItems.MOLTEN_PIG_IRON_BUCKET);
+        simpleItem(ModItems.MOLTEN_WROUGHT_IRON_BUCKET);
+        simpleItem(ModItems.MOLTEN_BLISTER_STEEL_BUCKET);
+        simpleItem(ModItems.MOLTEN_MILD_STEEL_BUCKET);
+        simpleItem(ModItems.MOLTEN_MANGANESE_STEEL_BUCKET);
+        simpleItem(ModItems.MOLTEN_HIGH_SPEED_STEEL_BUCKET);
+        simpleItem(ModItems.MOLTEN_STAINLESS_STEEL_BUCKET);
+        simpleItem(ModItems.MOLTEN_SLAG_BUCKET);
+
+        evenSimplerBlockItem(ModBlocks.FIRECLAY_BRICK_SLAB);
 
         simpleItem(ModItems.FIRE_CLAY);
         simpleItem(ModItems.FIRE_CLAY_BRICK);

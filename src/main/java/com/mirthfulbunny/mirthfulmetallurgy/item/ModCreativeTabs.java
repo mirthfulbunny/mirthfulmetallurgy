@@ -34,7 +34,17 @@ public class ModCreativeTabs {
                         pOutput.accept(ModBlocks.MANGANESE_STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.HIGH_SPEED_STEEL_BLOCK.get());
 
+                        pOutput.accept(ModBlocks.FIRECLAY_BRICKS.get());
+                        pOutput.accept(ModBlocks.FIRECLAY_BRICK_SLAB.get());
+
                         pOutput.accept(ModItems.MOLTEN_PIG_IRON_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_WROUGHT_IRON_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_BLISTER_STEEL_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_MILD_STEEL_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_MANGANESE_STEEL_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_HIGH_SPEED_STEEL_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_STAINLESS_STEEL_BUCKET.get());
+                        pOutput.accept(ModItems.MOLTEN_SLAG_BUCKET.get());
 
                         pOutput.accept(ModBlocks.BLOOMERY.get());
                         pOutput.accept(ModBlocks.HAMMER_TABLE.get());

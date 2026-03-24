@@ -1,6 +1,8 @@
-// 1.20.1	2026-03-22T18:55:31.4392456	Loot Tables
+// 1.20.1	2026-03-23T19:12:52.0617266	Loot Tables
 05fafef3b1ea547e04dcbfd032b1ecad11fe686c data/mirthfulmetallurgy/loot_tables/blocks/blister_steel_block.json
 23169544dd0b1979da8c85d0ba4111160e4440a0 data/mirthfulmetallurgy/loot_tables/blocks/bloomery.json
+9cd1ad7ff649c4a4dbc79230992a243de07db01b data/mirthfulmetallurgy/loot_tables/blocks/fireclay_bricks.json
+6485dd71b4de643cb2208d6f1d6632623a0e1eb5 data/mirthfulmetallurgy/loot_tables/blocks/fireclay_brick_slab.json
 137729646a933b2108b9e0679b5870b994e2b739 data/mirthfulmetallurgy/loot_tables/blocks/hammer_table.json
 d8e067c60df4034cec0036288b4641e2c7ed86a2 data/mirthfulmetallurgy/loot_tables/blocks/high_speed_steel_block.json
 e8a0764d583c53e8ae27e2d3bdefc51b0414b1a9 data/mirthfulmetallurgy/loot_tables/blocks/manganese_steel_block.json

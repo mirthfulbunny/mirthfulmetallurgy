@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -36,8 +37,28 @@ public class ModBlocks {
     public static final RegistryObject<Block> HIGH_SPEED_STEEL_BLOCK = registerBlock("high_speed_steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> FIRECLAY_BRICKS = registerBlock("fireclay_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS)));
+    public static final RegistryObject<Block> FIRECLAY_BRICK_SLAB = registerBlock("fireclay_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB)));
+
     public static final RegistryObject<LiquidBlock> MOLTEN_PIG_IRON_BLOCK = BLOCKS.register("molten_pig_iron_block",
             () -> new LiquidBlock(ModFluids.MOLTEN_PIG_IRON_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_WROUGHT_IRON_BLOCK = BLOCKS.register("molten_wrought_iron_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_WROUGHT_IRON_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_BLISTER_STEEL_BLOCK = BLOCKS.register("molten_blister_steel_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_BLISTER_STEEL_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_MILD_STEEL_BLOCK = BLOCKS.register("molten_mild_steel_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_MILD_STEEL_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_STAINLESS_STEEL_BLOCK = BLOCKS.register("molten_stainless_steel_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_STAINLESS_STEEL_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_MANGANESE_BLOCK = BLOCKS.register("molten_manganese_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_MANGANESE_STEEL_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_HIGH_SPEED_STEEL_BLOCK = BLOCKS.register("molten_high_speed_steel_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_HIGH_SPEED_STEEL_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+    public static final RegistryObject<LiquidBlock> MOLTEN_SLAG_BLOCK = BLOCKS.register("molten_slag_block",
+            () -> new LiquidBlock(ModFluids.MOLTEN_SLAG_SOURCE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
+
 
     public static final RegistryObject<Block> BLOOMERY = registerBlock("bloomery",
             () -> new BloomeryBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));

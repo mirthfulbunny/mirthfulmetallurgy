@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "mirthfulmetallurgy:block/fireclay_bricks",
+    "side": "mirthfulmetallurgy:block/fireclay_bricks",
+    "top": "mirthfulmetallurgy:block/fireclay_bricks"
+  }
+}

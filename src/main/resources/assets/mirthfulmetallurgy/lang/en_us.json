@@ -17,8 +17,26 @@
   "block.mirthfulmetallurgy.manganese_steel_block": "Manganese Steel Block",
   "block.mirthfulmetallurgy.high_speed_steel_block": "High Speed Steel Block",
 
+  "block.mirthfulmetallurgy.fireclay_bricks": "Fireclay Bricks",
+
   "fluid.mirthfulmetallurgy.molten_pig_iron": "Molten Pig Iron",
   "item.mirthfulmetallurgy.molten_pig_iron_bucket": "Molten Pig Iron Bucket",
+  "fluid.mirthfulmetallurgy.molten_wrought_iron": "Molten Wrought Iron",
+  "item.mirthfulmetallurgy.molten_wrought_iron_bucket": "Molten Wrought Iron Bucket",
+  "fluid.mirthfulmetallurgy.molten_blister_steel": "Molten Blister Steel",
+  "item.mirthfulmetallurgy.molten_blister_steel_bucket": "Molten Blister Steel Bucket",
+  "fluid.mirthfulmetallurgy.molten_mild_steel": "Molten Mild Steel",
+  "item.mirthfulmetallurgy.molten_mild_steel_bucket": "Molten Mild Steel Bucket",
+  "fluid.mirthfulmetallurgy.molten_manganese_steel": "Molten Manganese Steel",
+  "item.mirthfulmetallurgy.molten_manganese_steel_bucket": "Molten Manganese Steel Bucket",
+  "fluid.mirthfulmetallurgy.molten_stainless_steel": "Molten Stainless Steel",
+  "item.mirthfulmetallurgy.molten_stainless_steel_bucket": "Molten Stainless Steel Bucket",
+  "fluid.mirthfulmetallurgy.molten_high_speed_steel": "Molten High Speed Steel",
+  "item.mirthfulmetallurgy.molten_high_speed_steel_bucket": "Molten High Speed Steel Bucket",
+  "fluid.mirthfulmetallurgy.molten_slag": "Molten Slag",
+  "item.mirthfulmetallurgy.molten_slag_bucket": "Molten Slag Bucket",
+
+
 
   "item.mirthfulmetallurgy.fire_clay": "Fire Clay",
   "item.mirthfulmetallurgy.fire_clay_brick": "Fire Clay Brick",

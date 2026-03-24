@@ -5,6 +5,7 @@ import com.mirthfulbunny.mirthfulmetallurgy.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
@@ -27,7 +28,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.MANGANESE_STEEL_BLOCK);
         blockWithItem(ModBlocks.HIGH_SPEED_STEEL_BLOCK);
 
+        blockWithItem(ModBlocks.FIRECLAY_BRICKS);
+        slabBlock(((SlabBlock) ModBlocks.FIRECLAY_BRICK_SLAB.get()), blockTexture(ModBlocks.FIRECLAY_BRICKS.get()), blockTexture(ModBlocks.FIRECLAY_BRICKS.get()));
+
         fluidBlock(ModBlocks.MOLTEN_PIG_IRON_BLOCK.get(), "molten_pig_iron");
+        fluidBlock(ModBlocks.MOLTEN_WROUGHT_IRON_BLOCK.get(), "molten_wrought_iron");
+        fluidBlock(ModBlocks.MOLTEN_BLISTER_STEEL_BLOCK.get(), "molten_blister_steel");
+        fluidBlock(ModBlocks.MOLTEN_MILD_STEEL_BLOCK.get(), "molten_mild_steel");
+        fluidBlock(ModBlocks.MOLTEN_STAINLESS_STEEL_BLOCK.get(), "molten_stainless_steel");
+        fluidBlock(ModBlocks.MOLTEN_MANGANESE_BLOCK.get(), "molten_manganese");
+        fluidBlock(ModBlocks.MOLTEN_HIGH_SPEED_STEEL_BLOCK.get(), "molten_high_speed_steel");
+        fluidBlock(ModBlocks.MOLTEN_SLAG_BLOCK.get(), "molten_slag");
 
         furnaceBlock(ModBlocks.BLOOMERY.get(), "bloomery");
         simpleBlockItem(ModBlocks.BLOOMERY.get(), models().getExistingFile(modLoc("block/bloomery")));
